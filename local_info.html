@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset='utf-8'>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+
+    <script src="javascripts/w3data.js"></script>
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Raleway"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+          integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+            integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+            crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="stylesheets/styles.css" media="screen">
+    <script src = "https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDrgNqLPH1dsFzcdaTiEHxypG2ieflUnOQ&callback=initMap" type="text/javascript"></script>
+    <!-- google api key AIzaSyDrgNqLPH1dsFzcdaTiEHxypG2ieflUnOQ -->
+    <script>
+    function loadMap() {
+
+        var uwa = {lat: -31.9776358,lng: 115.8150253};
+        //var curtin = {lat: -31.9940752, lng: 115.8824282};
+        var curtin = {lat: -31.9945778, lng: 115.8885769};
+	var broadie = {lat: -31.9968107,lng: 115.8925183};
+	var cira = {lat: -31.9945778, lng: 115.8885769};
+        var gingin = {lat: -31.3566909,lng: 115.711308};
+        var dinner = {lat:-32.011588,lng:115.8842603};
+        var zoomlevel=15
+        var curtinmap = new google.maps.Map(document.getElementById('curtin'), {
+            zoom: zoomlevel,
+            center: curtin
+        });
+        var curtinmarker = new google.maps.Marker({
+            position: curtin,
+            map: curtinmap
+        });
+        var uwamap = new google.maps.Map(document.getElementById('uwa'), {
+            zoom: zoomlevel,
+            center: uwa
+        });
+        var uwamarker = new google.maps.Marker({
+            position: uwa,
+            map: uwamap
+        });
+        var ginginmap = new google.maps.Map(document.getElementById('gingin'), {
+            zoom: zoomlevel,
+            center: gingin
+        });
+        var ginginmarker = new google.maps.Marker({
+            position: gingin,
+            map: ginginmap
+        });
+        var dinnermap = new google.maps.Map(document.getElementById('dinner'), {
+            zoom: zoomlevel,
+            center: dinner
+        });
+        var dinnermarker = new google.maps.Marker({
+            position: dinner,
+            map: dinnernmap
+        });
+    }
+    </script>
+
+    <title>ANITA 2024 workshop and school  - local information</title>
+</head>
+
+<!-- <body onload="loadMap()"> -->
+
+<div w3-include-html="snippets/header.html"></div>
+<div w3-include-html="snippets/nav.html"></div>
+
+<div class="container main">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="body-content">
+                <div class="header">
+                    <span>Local information</span>
+                </div>
+
+<div>
+
+<P>Info coming.</P>
+
+<!--
+<P> Hotels in the CBD will be within 20 minutes or so walking distance of the North Terrace campus.</P>
+
+<P> Some of the following options could be of interest:</P>
+
+<P> <A HREF=https://www.ibisadelaide.com.au/> Ibis</A></P>
+
+<P> <A HREF=https://laloft.com.au/mansions-on-pulteney/> Mansions on Pulteney </A> </P>
+
+<P> <A HREF=https://adelaide.crowneplaza.com/> Crowne Plaza </A> </P>
+
+<P> The Thursday (7 PM) conference dinner venue is the  <A HREF=https://www.britishhotel.com.au/> British Hotel </A>, located at 58 Finniss St, 
+about 15-20 minutes walk from the workshop venue.   You can find the menu
+<A HREF="British Hotel 2022.pdf">here</A>.</P>
+
+<P> For lunches there are several places on campus & nearby:</P>
+<UL>
+<LI> The Hub J10 on attached map (first suggestion, and hopefully not too busy)
+<LI> Union House E7
+<LI> Scott Theare  G4 (hommous/veg speciality)
+<LI>Ingkardi Wardli F11
+<LI>State Library K5
+<LI>Art Gallery L8  (more expensive)
+<LI>Plus, tons of places along Rundle Mall and Rundle St.
+</UL>
+
+<P> The school & workshop venues are:</P>
+
+<P> School - Mawson Sprigg Room (Mawson Building)  B12 on the map below</P>
+
+<P> Workshop -  Kerr Grant Lecture Theatre (Physics Building) J8 on the map below</P>
+
+<IMG SRC="north_terrace.jpg">
+-->
+
+</div>
+<!--<div> To be added </div>-->
+<!--<div>
+If the directions and local information PDFs below are not showing up, you can download them from 
+<A HREF="DirectionsANITAatMQ.pdf">https://asa-anita.github.io/workshop2022/DirectionsANITAatMQ.pdf</A>
+<A HREF="ANITAschedule2022.pdf">https://asa-anita.github.io/workshop2022/localinfo2022.pdf</A>, respectively.
+
+<object width="1100" height="2800" type="application/pdf" data="DirectionsANITAatMQ.pdf?#zoom=100&scrollbar=0&toolbar=0&navpanes=0">
+If the PDF is not showing up, please find it at
+<A HREF="DirectionsANITAatMQ.pdf">https://asa-anita.github.io/workshop2022/DirectionsANITAatMQ.pdf</A>.
+</object>
+
+<object width="1100" height="2800" type="application/pdf" data="localinfo2022.pdf?#zoom=100&scrollbar=0&toolbar=0&navpanes=0">
+If the PDF is not showing up, please find it at 
+<A HREF="localinfo2022.pdf">https://asa-anita.github.io/workshop2022/localinfo2022.pdf</A>.
+</object>
+</div>
+-->
+
+<!--          <div id="venue">
+		  <h2 style="text-align: center;">Venue</h2>
+		  <font size="+1">
+              <p style="text-align: left;">
+		      
+		 </p>  
+              The School and Workshop will take place at <a href="https://www.unsw.adfa.edu.au">The School of Science (formerly PEMS), UNSW Canberra </a>. Monday and Tuesday the school will be held in Seminar Room 06 (building 32), and in room P25 (building 26) on Wednesday. For Thursday and Friday the workshop will be held in Lecture Theatre 01 (Building 30). ** Directions were provided on emailed version of map.** For those driving, free parking is best accessed in Lot 90 (see map). Participants will require an Eduroam account if they want to have wireless internet access while on campus.
+
+                <div>
+                    <p style="text-align:center;">
+                     <img src="images/ADFA_MAP_2018.jpg" width="100%">
+                   </p>
+                </div>
+
+              <br/>
+              <br/>
+                UNSW Canberra is approximately 6 minutes by car or 20 minutes by bike from the centre of Canberra, or approximately 30 minutes by bus.
+		  </p>
+		  
+		  <h2 style="text-align: center;">Transport</h2>
+		  <font size="+1">
+              <p style="text-align: left;">
+              From Canberra airport, the easiest way to access the conference venue is utilising a car or taxi, which takes approximately 6 minutes. The conference venue is also accessible from the airport utilising public transport, via the route 5 then route 30 bus. This takes approximately 30 minutes. An Uber from UNSW Canberra/ADFA to the airport costs approx $12-$15. 
+
+          <br/>
+          <br/>
+
+          Public transport in Canberra (bus and light rail along Northbourne Avenue) can be paid for utilsing cash fares or a MyWay card; however, the latter is recommended due to the lower fares, which are listed <a href="https://www.transport.act.gov.au/tickets-and-myway/fares"> here</a>. For adult passengers, a single MyWay trip costs $3.22, and the corresponding cash fare is $5.00. MyWay fares include a 90 minute transfer period, allowing you to take numerous bus/light rail services with no additional fare.
+              </p>
+
+		  <h2 style="text-align: center;">Workshop Dinner</h2>
+		  <font size="+1">
+          <p style="text-align: left;">
+          There will be a workshop dinner as part of the conference on the Thursday. We are grateful to the ASA for subsidising the dinner, which will take place at Lemongrass Thai. All dietary restrictions will be taken into account (please let the LOC/SOC know if you have dietary concerns that were not indicated during registration).</p>
+
+          <br/>
+          <br/>
+
+		  <h2 style="text-align: center;">Accommodation</h2>
+		  <font size="+1">
+          <p style="text-align: left;">
+              Accomodation in Canberra will need be arranged by the attendee. Here is a list of accomodation options, which are willing to offer discounts to conference attendees. The rates listed are for a <b>single night</b>.
+              <ul>
+                  <li style="font-size:110%">Mercure Hotels, cnr of Ainslie and Limestone Avenues, Braddon ACT 2612.</li>
+                      <ul>
+                          <li style="font-size:100%">For a Superior King Room (1 King or 2 Single Beds), the rate for conference attendees is $129.00 per night for the 3rd, 6th and 7th of Februrary, and $159.00 for the 4th and 5th. Note that a maximum of 30 rooms are available at this hotel.</li>
+                              <li style="font-size:100%">Breakfast can be pre-booked for $19 per person, per day (regular rate is $24 per person).</li>
+                              <li style="font-size:100%">The discount code for ANITA workshop/school attendees is <b>ADF030220</b>. To book this hotel, one option is to email stay@mercurecanberra.com.au and include all details i.e. name, date of arrival/departure, number of
+persons, code reference #, credit card details to guarantee etc.</li>
+			       <li style="font-size:100%">Booking by phone: Call: 02 6243 0000 (dial 1 at the prompt to speak with reservations directly 9:00AM – 5:00PM). Hotel Contact: Jasmine Tubnor – Reservations Supervisor. +61 (0) 2 6243 0012
+</li>
+                              <li style="font-size:100%">Please note that reservations cancelled with less than <b>6 days</b> notice will be charged for the entire stay.</li>
+
+
+                      </ul>
+                  <li style="font-size:110%">Crowne Plaza, 1 Binara St, Canberra ACT 2601</li>
+                  <ul>
+                      <li style="font-size:100%">The discounted room rate is $225/night, for a superior city view king or twin room.</li>
+                      <li style="font-size:100%">Please book utilising the <a href="https://book.passkey.com/go/ANITA2020">exclusive registration link</a> for the ANITA school/workshop participants. Alternatively, please book by calling the Reservations team on: 02 6274 5500 and quoting ‘ANITA’. Hotel contact: Sam Thompson – Business Development Director: +61 2 6274 5580</li>
+                  </ul>
+                  <li style="font-size:110%">The Sebel Canberra, 197 London Circuit, Canberra ACT 2601</li>
+                  <ul>
+                      <li style="font-size:100%">The discounted room rate, per room, per night is $184.</li>
+                      <li style="font-size:100%">To make a booking at The Sebel Canberra, either contact the hotel via phone on 02 6267 5675 or email
+reservations@thesebelcanberra.com.au, and quote "ANITA" when booking.
+                      </li>
+                  </ul>
+                  <li style="font-size:110%">Quest Canberra, 28 West Row, Canberra ACT 2601</li>
+                  <ul>
+                      <li style="font-size:100%">Discounted rates at Quest Canberra are available for three room types:</li>
+                      <ul>
+                          <li style="font-size:100%">Studio Apartment - $199/night.</li>
+                          <li style="font-size:100%">One Bedroom Apartment - $219/night.</li>
+                          <li style="font-size:100%">One Bedroom Executive Apartment - $239/night.</li>
+                      </ul>
+                      <li style="font-size:100%">Parking can be arranged for $20 per night (onsite or secure offsite parking), assuming there are spaces available (request upon booking).</li>
+                      <li style="font-size:100%"> To book this property, please utilise the booking code "ADFA2020", either calling 02 6243 2222 or emailing questcanberra@questapartments.com.au.</li>
+                  </ul>
+
+                  <li style="font-size:110%">Canberra City YHA, 7 Akuna Street, Canberra City ACT 2601</li>
+                  <ul>
+                      <li style="font-size:100%">Conference attendees can get 10% of rack rates for any multishare dorm (4, 8 and 10 dorms) and any private room (shared bathroom and ensuite).</li>
+                      <li style="font-size:100%">To book, please go to the <a href="www.yha.com.au">Canberra City YHA website</a>, select a standard rate, then enter the promo code "Conf00" (zero zero) in the designated entry, as shown below. <div>
+                    <p style="text-align:center;">
+                      <img src="images/YHA_booking.png", width=50%>
+                    </p>
+                </div>
+
+                  </ul>
+		      <li style="font-size:110%">University House – ANU. Cnr Balmain Crescent & Liversidge Street Acton ACT 2601</li>
+		      <ul>
+		    	<li style="font-size:100%">+61 6125 5211: Polly Prakash – Rooms Division Manager.</li>
+			<li style="font-size:100%">Rates: 5% discount of the Best Available Rate advertised online via accommodation website.</li>
+			<li style="font-size:100%">Breakfast is extra, but will book with 10% discount with this offer. Booking Code is 2002UNSWAD</li>
+	              </p>
+                </div>
+
+
+              </ul>
+              </p>
+-->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container footer" w3-include-html="snippets/footer.html"></div>
+
+<script>
+    w3IncludeHTML();
+</script>
+</body>
+</html>
